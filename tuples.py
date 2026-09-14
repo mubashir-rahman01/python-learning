@@ -16,10 +16,10 @@ print("Type of fruits tuple: " + str(type(fruits)));
 # once initialized, the elements of a tuple cannot be changed, added, or removed. 
 # However, if the tuple contains mutable objects like lists, those objects can be modified.
 
-# fruits[0] = "blueberry"; # This will raise an error because tuples are immutable.
+fruits[0] = "blueberry"; # This will raise an error because tuples are immutable.
 
 # the order of tuple also cannot be changed.
-# fruits[0], fruits[1] = fruits[1], fruits[0]
+fruits[0], fruits[1] = fruits[1], fruits[0]
 
 # when a function returns multiple values, it actually returns a tuple containing those values. For example, the divmod() function takes two numbers and returns a tuple containing the quotient and remainder of their division.
 

@@ -1,7 +1,7 @@
 # Here we will discuss some utility functions that can be used across the project. 
 # These functions are designed to simplify common tasks and improve code reusability.
 
-# A lambda function is a small anonymous function that can take any number of arguments, but can only have one expression. It is often used for short, throwaway functions that are not reused elsewhere in the code.
+# A lambda function is a small anonymous function that can take any number of arguments, but can return only have one expression. It is often used for short, throwaway functions that are not reused elsewhere in the code.
 # The syntax for a lambda function is: lambda arguments: expression
 
 def square(x):
