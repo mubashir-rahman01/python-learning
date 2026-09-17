@@ -27,4 +27,13 @@ matrix = np.array([[1, 2, 3],
 transposed_matrix = matrix.transpose()
 print("Original matrix:\n", matrix)
 print("Transposed matrix:\n", transposed_matrix)
+
+# Array and matrix multiplication is different. In array multiplication, the corresponding elements of the two arrays are multiplied together, 
+# while in matrix multiplication, the rows of the first matrix are multiplied by the columns of the second matrix.
+
+a = np.array([1,2,3])
+b = np.array([4,5,6])
+
+print("Array multiply:", a * b) # output: [4 10 18]
+print("Matrix multiply:", a @ b) # output: 32
                                             
